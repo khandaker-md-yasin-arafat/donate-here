@@ -18,6 +18,7 @@ section{
     color: #ffffff;
     display: grid;
     align-items: center;
+    justify-items: center;
 }
 .top-part h1{
     font-size: 60px;
@@ -26,6 +27,9 @@ section{
 .top-part p{
     font-size: 20px;
     margin-bottom: 30px;
+}
+.top-part-content{
+    width: 80%;
 }
 .link-btn{
     text-decoration: none;
@@ -158,6 +162,7 @@ footer{
 }
 .footer-content h1{
     font-size: 50px;
+    color: #FF6464;
 }
 
 
