@@ -5,6 +5,10 @@ body{
 section{
     margin-bottom: 150px;
 }
+.container-flex{
+    display: flex;
+    justify-content: center;
+}
 .top-part{
     text-align: center;
     background-image: url(images/donate-photo.jpg);
@@ -32,17 +36,19 @@ section{
     border-radius: 5px;
     font-size: 20px;
 }
-.donate-pay{
+.donate-pay-site{
     text-align: center;
 }
-.donate-pay h2{
+.donate-pay-site h2, .donate-plan-site h2{
     font-size: 50px;
     margin-bottom: 5px;
+    text-align: center;
 }
-.donate-pay p{
+.donate-pay-site p, .donate-plan-site p{
     font-size: 20px;
     color: #6F706F;
     margin-bottom: 60px;
+    text-align: center;
 }
 .donate-pay-amount{
     display: flex;
@@ -69,7 +75,7 @@ section{
 .donate-pay-tk:hover p{
     color: #FF6464;
 }
-.donate-pay input{
+.donate-pay-site input{
     width: 80%;
     border: none;
     border-bottom: 3px solid #ddd;
@@ -78,4 +84,33 @@ section{
     text-align: center;
     font-size: 25px;
 }
+.donate-plan{
+    width: 400px;
+    height: 400px;
+    background: #ddd;
+    padding: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.donate-plan img{
+    margin-top: 50px;
+}
+.donate-plan h3{
+    font-size: 28px;
+}
+.donate-plan p{
+    text-align: left;
+}
+.donate-plan-color-1{
+    background: #EBF2F3;
+}
+.donate-plan-color-2{
+    background: #FDECE8;
+}
+.donate-plan-color-3{
+    background: #FDF6D8;
+}
+
+
 
