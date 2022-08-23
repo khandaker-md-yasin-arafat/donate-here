@@ -39,7 +39,7 @@ section{
 .donate-pay-site{
     text-align: center;
 }
-.donate-pay-site h2, .donate-plan-site h2{
+.donate-pay-site h2, .donate-plan-site h2, .latest-work-site h2{
     font-size: 50px;
     margin-bottom: 5px;
     text-align: center;
@@ -110,6 +110,22 @@ section{
 }
 .donate-plan-color-3{
     background: #FDF6D8;
+}
+.latest-work{
+    width: 20%;
+    margin: 50px 30px;
+    box-shadow: 3px 3px 10px grey;
+    border-radius: 25px;
+    padding: 25px;
+}
+.latest-work img{
+    width: 100%;
+}
+.latest-work h3{
+    font-size: 28px;
+}
+.latest-work p{
+
 }
 
 
