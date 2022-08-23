@@ -87,6 +87,7 @@ section{
     margin-bottom: 50px;
     text-align: center;
     font-size: 25px;
+    outline: 0;
 }
 .donate-plan{
     width: 400px;
@@ -128,9 +129,6 @@ section{
 .latest-work h3{
     font-size: 28px;
 }
-.get-update-site{
-
-}
 .get-update{
     width: 900px;
     height: 250px;
@@ -138,17 +136,37 @@ section{
     margin: 0 auto;
 }
 .get-update-content{
+    position: absolute;
     text-align: center;
     line-height: 250px;
+    transform: translate(30%, 0%);
 }
 .get-update-content input{
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
     border: none;
-    width: 300px;
-    height: 20px;
-    padding: 15px;
-    border-radius: 5px;
-    background: #ddd;
+    outline: none;
     font-size: 20px;
+    padding: 15px;
+    margin-left: 50px;
+}
+.get-update-content input[type="text"]{
+    width: 300px;
+    height: 50px;
+    background: #ddd; 
+    border-radius: 5px 0 0 5px;
+}
+.get-update-content input[type="submit"]{
+    background: #FF6464;
+    color: #ffffff;
+    position: relative;
+    border-radius: 0 5px 5px 0;
+    left: -54px;
+    top: 1px;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
 }
 footer{
     text-align: center;
