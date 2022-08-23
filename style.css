@@ -39,12 +39,12 @@ section{
 .donate-pay-site{
     text-align: center;
 }
-.donate-pay-site h2, .donate-plan-site h2, .latest-work-site h2{
+.donate-pay-site h2, .donate-plan-site h2, .latest-work-site h2, .get-update-site h2{
     font-size: 50px;
     margin-bottom: 5px;
     text-align: center;
 }
-.donate-pay-site p, .donate-plan-site p{
+.donate-pay-site p, .donate-plan-site p, .get-update-site p{
     font-size: 20px;
     color: #6F706F;
     margin-bottom: 60px;
@@ -124,8 +124,40 @@ section{
 .latest-work h3{
     font-size: 28px;
 }
-.latest-work p{
+.get-update-site{
 
+}
+.get-update{
+    width: 900px;
+    height: 250px;
+    background: #FDF6D8;
+    margin: 0 auto;
+}
+.get-update-content{
+    text-align: center;
+    line-height: 250px;
+}
+.get-update-content input{
+    border: none;
+    width: 300px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #ddd;
+    font-size: 20px;
+}
+footer{
+    text-align: center;
+    background: #101016;
+    color: #ffffff;
+    height: 220px;
+}
+.footer-content{
+    display: grid;
+    align-items: center;
+}
+.footer-content h1{
+    font-size: 50px;
 }
 
 
